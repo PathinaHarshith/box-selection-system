@@ -57,5 +57,12 @@ Destroying test database for alias 'default' ('file:memorydb_default?mode=memory
 ---
 
 ## Test Execution Notes
-Local terminal output above (python manage.py test --verbosity=2, 14/14 passing) serves as the test execution proof for this submission. GitHub Actions workflow is configured in .github/workflows/django.yml and will run automatically on push to main.
+Local terminal output above (python manage.py test --verbosity=2, 14/14 passing) serves as the test execution proof for this submission.
+
+GitHub Actions CI Run (Passing):
+https://github.com/PathinaHarshith/box-selection-system/actions/runs/27571102409
+
+Status: ✅ Passed
+
+The CI workflow automatically installs dependencies, runs migrations, and executes the complete Django test suite on every push to the main branch.
 

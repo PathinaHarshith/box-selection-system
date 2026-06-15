@@ -27,7 +27,7 @@ Follow these steps to set up and run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/[YOUR_GITHUB_USERNAME]/box-selection-system
+git clone https://github.com/PathinaHarshith/box-selection-system.git
 cd box-selection-system
 
 # Create a python virtual environment

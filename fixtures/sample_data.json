@@ -1,0 +1,134 @@
+[
+  {
+    "model": "packing.box",
+    "pk": 1,
+    "fields": {
+      "name": "Small Box",
+      "length": "10.00",
+      "width": "10.00",
+      "height": "10.00",
+      "max_weight_capacity": "10.00",
+      "cost": "1.00"
+    }
+  },
+  {
+    "model": "packing.box",
+    "pk": 2,
+    "fields": {
+      "name": "Medium Box",
+      "length": "20.00",
+      "width": "15.00",
+      "height": "15.00",
+      "max_weight_capacity": "20.00",
+      "cost": "2.50"
+    }
+  },
+  {
+    "model": "packing.box",
+    "pk": 3,
+    "fields": {
+      "name": "Large Box",
+      "length": "30.00",
+      "width": "25.00",
+      "height": "25.00",
+      "max_weight_capacity": "40.00",
+      "cost": "5.00"
+    }
+  },
+  {
+    "model": "packing.box",
+    "pk": 4,
+    "fields": {
+      "name": "XL Box",
+      "length": "50.00",
+      "width": "40.00",
+      "height": "40.00",
+      "max_weight_capacity": "80.00",
+      "cost": "9.50"
+    }
+  },
+  {
+    "model": "packing.box",
+    "pk": 5,
+    "fields": {
+      "name": "Heavy-Duty Box",
+      "length": "40.00",
+      "width": "40.00",
+      "height": "40.00",
+      "max_weight_capacity": "150.00",
+      "cost": "15.00"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 1,
+    "fields": {
+      "sku": "PROD-WID-SM",
+      "name": "Small Widget",
+      "length": "5.00",
+      "width": "5.00",
+      "height": "5.00",
+      "weight": "1.00"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 2,
+    "fields": {
+      "sku": "PROD-WID-MD",
+      "name": "Medium Widget",
+      "length": "12.00",
+      "width": "10.00",
+      "height": "10.00",
+      "weight": "3.50"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 3,
+    "fields": {
+      "sku": "PROD-WID-LG",
+      "name": "Large Widget",
+      "length": "25.00",
+      "width": "20.00",
+      "height": "20.00",
+      "weight": "15.00"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 4,
+    "fields": {
+      "sku": "PROD-WID-HV",
+      "name": "Heavy Widget",
+      "length": "15.00",
+      "width": "15.00",
+      "height": "15.00",
+      "weight": "90.00"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 5,
+    "fields": {
+      "sku": "PROD-WID-FL",
+      "name": "Flat Widget",
+      "length": "45.00",
+      "width": "35.00",
+      "height": "5.00",
+      "weight": "2.00"
+    }
+  },
+  {
+    "model": "packing.product",
+    "pk": 6,
+    "fields": {
+      "sku": "PROD-WID-GIANT",
+      "name": "Oversized Giant Item",
+      "length": "100.00",
+      "width": "100.00",
+      "height": "100.00",
+      "weight": "500.00"
+    }
+  }
+]
